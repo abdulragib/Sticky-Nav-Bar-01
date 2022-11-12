@@ -14,11 +14,48 @@
     position: sticky;
 }
 
+.nav-img{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
 
 .second{
     display:flex;
     justify-content: space-evenly;
     width: 400px;
+    flex-wrap: wrap;
+}
+
+.part-1{
+    width:50%;
+    padding-top:40px;
+    padding-left:30px;
+}
+
+button{
+    border:none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: black;
+    color:white;
+    margin-top:15px;
+}
+
+.part-2>img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-top:50px;
+}
+
+.banner{
+    display:flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -32,5 +69,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .part-1{
+        width:90%;
+    }
+
+    .part-2{
+        width:90%;
+        justify-content: center;
+       
     }
 }
