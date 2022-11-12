@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.nav{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    padding:16px;
+    flex-wrap:wrap;
+    top:0;
+    position: sticky;
+}
+
+
+.second{
+    display:flex;
+    justify-content: space-evenly;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+@media  screen and (max-width:768px) {
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
